@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nottingham.cs.tung.g54idp.fragment.StatusFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/slotGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/slot1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+        <TextView
+            android:id="@+id/slot2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+        <TextView
+            android:id="@+id/slot3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+        <TextView
+            android:id="@+id/slot4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonFocus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
