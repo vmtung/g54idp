@@ -12,9 +12,9 @@ After the selection, the directions will be given to the user.
 - A module to guess the availability of the computer rooms when the user arrives.
 
 ## Screenshot
-<center>!(/screenshot/shot1.png | width=100)</center>
+!(/screenshot/shot1.png | width=100)
 <center>List of available computer rooms</center>
-<center>!(/screenshot/shot2.png | width=100)</center>
+!(/screenshot/shot2.png | width=100)
 <center>Showing directions</center>
-<center>!(/screenshot/shot3.png | width=100)</center>
+!(/screenshot/shot3.png | width=100)
 <center>Showing the connection between fragments and view items</center>
